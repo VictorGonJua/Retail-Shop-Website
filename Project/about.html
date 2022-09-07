@@ -1,0 +1,78 @@
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Estanco San Roque - Informacion</title>
+<link rel="stylesheet" href="style.css">
+<link href="https://fonts.googleapis.com/css?family=Poppins:100,200,300,400,600,700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"> 
+</head>
+<body>
+    <section class="sub-header">
+        <nav>
+            <a href="index.html"><img src="images/logo3.png"></a>
+            <div class="nav-links" id="navLinks">  
+                <i class="fa fa-close" onclick="hideMenu()"></i>
+                <ul>
+                    <li><a href="index.html">ESTANCO</a></li>
+                    <li><a href="about.html">INFORMACION</a></li>
+                    <li><a href="course.html">PRODUCTOS</a></li>
+                    <li><a href="blog.html">BLOG</a></li>
+                    <li><a href="contact.html">CONTACTO</a></li>
+                </ul>
+            </div>
+            <i class="fa fa-bars" onclick="showMenu()"></i>
+        </nav>   
+            <h1>Información</h1>
+    </section>
+    
+    
+<!------- Informacion -------->
+    
+<section class="about-us">
+    <div class="row">
+        <div class="about-col">
+            <h1>Somos tu estanco de confianza en Castellon</h1>     
+            <p>Llegaban los rumores de la selva del vómito<br>
+con las mujeres vacías, con niños de cera caliente,<br>
+con árboles fermentados y camareros incansables<br>
+que sirven platos de sal bajo las arpas de la saliva.<br>
+Sin remedio, hijo mío, ¡vomita! No hay remedio.<br>
+No es el vómito de los húsares sobre los pechos de la prostituta,<br>
+ni el vómito del gato que se tragó una rana por descuido.<br>
+Son los muertos que arañan con sus manos de tierra<br>
+las puertas de pedernal donde se pudren nublos y postres.</p>
+            <a href="https://www.youtube.com/watch?v=_sfXzydp-mk" class="hero-btn red-btn">VIDEO DE PRESENTACIÓN</a>
+        </div>
+        <div class="about-col">
+            <img src="images/info.JPG">
+        </div>
+    </div>    
+</section>
+    
+<!-------- footer ---------->
+
+<section class="footer">
+        <h4>Informacion</h4>
+        <p>This webpage is a project for the course "Web Development I.</p>
+        <div class="icons">
+            <a href="https://www.linkedin.com/in/victorgonzalezjuarez/"><i class="fa fa-linkedin"></i></a>
+        </div>
+        <a href="https://www.linkedin.com/in/victorgonzalezjuarez/"footer-link"><p>hecho con <i class="fa fa-heart-o"></i> by Victor Gonzalez</p></a>
+</section>    
+  
+  
+<!----JavaScript for toggle menu---->
+<script>
+    var navLinks = document.getElementById("navLinks");
+
+    function showMenu() {
+        navLinks.style.right = "0";
+    }
+
+    function hideMenu() {
+        navLinks.style.right = "-200px";
+    }
+</script> 
+    
+</body>
+</html>    

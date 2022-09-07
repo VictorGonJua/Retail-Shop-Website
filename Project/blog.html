@@ -1,0 +1,119 @@
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Estanco San Roque - Blog</title>
+<link rel="stylesheet" href="style.css">
+<link href="https://fonts.googleapis.com/css?family=Poppins:100,200,300,400,600,700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"> 
+</head>
+<body>
+    <section class="sub-header">
+        <nav>
+            <a href="index.html"><img src="images/logo3.png"></a>
+            <div class="nav-links" id="navLinks">  
+                <i class="fa fa-close" onclick="hideMenu()"></i>
+                <ul>
+                    <li><a href="index.html">ESTANCO</a></li>
+                    <li><a href="about.html">INFORMACION</a></li>
+                    <li><a href="course.html">PRODUCTOS</a></li>
+                    <li><a href="blog.html">BLOG</a></li>
+                    <li><a href="contact.html">CONTACTO</a></li>
+                </ul>
+            </div>
+            <i class="fa fa-bars" onclick="showMenu()"></i>
+        </nav>
+            <h1>Aquí te actualizaremos sobre nuestras últimas novedades</h1>
+    </section>
+    
+<!---------- Blog Page Content ---------->
+    
+    <section class="blog-content">
+    <div class="row">
+    <div class="blog-left">
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/vA_j6rjsBec" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        <h2>¿Por qué lo puros cubanos son tan caros?</h2>
+        
+        <p>Los habanos Cohiba Behike son otras piezas caras. Fueron lanzados en 2006, sin embargo, un número limitado de solamente 100 piezas. Los habanos son magníficos, o al menos lo eran, ya que es muy difícil encontrarlos ahora en el mercado. La buena noticia es que otras marcas han pensado en crear estos habanos nuevamente a precios más baratos. Con suerte, próximamente podremos disfrutar de este rico bouquet de sabores de Behike. Cohiba Behike es un cigarro largo e imponente de 7,5 pulgadas. Tiene un cepo de 52 y una envoltura que hará salivar a cualquiera. Su envoltorio color chocolate está hecho de hojas añejadas de tabaco de la calidad más alta posible.</p>
+        <br>
+        <p>Un cigarro de la realeza y muy caro es His Majesty’s Reserve. Estos habanos son los más conocidos, y al mismo tiempo, las piezas más caras del mercado mundial. El tabaco de primera categoría utilizado para la creación de estos habanos, no es solamente que hace que estos habanos sean altamente tentadores. Cada cigarro ha sido infundido con inmensa cantidad en Coñac Luis XIII. Este coñac se utilizaba principalmente para retener mejor el sabor del tabaco, pero el hecho de que se trata de la bebida más cara del mundo, ha incrementado el precio de los habanos. Por lo tanto, este coñac magnífico combinado con el mejor tabaco de Cuba ha dado lugar a uno de los habanos más sabrosos del mundo.</p>
+        <br>
+        <p>Desafortunadamente, anualmente se lanzan menos de 100 cajas con estos increíbles habanos. Una caja con estas vitolas no puede comprarse por menos de $750. Sin embargo, considerando el contenido de cada cigarro, si usted es un apasionado de los habanos cubanos, considerará este precio el sacrificio por obtener el placer supremo.</p>
+        <br>
+        <p>Los habanos cubanos no son habanos comunes. Son considerados los mejores del mundo. Por lo tanto, el precio no es un impedimento para la gente que quiere probar algo fuera de lo común. Después de todo, esas piezas son valiosas y pueden ofrecerle momentos de placer. La gente que fuma habanos cubanos se consideran a sí mismos figuras imponentes del mundo. No hay nada de malo en esto. Disfrutar de un cigarro cubano está pensado para hacernos sentir mejor e importantes.</p>
+        
+        <div class="comment-box">
+            <h3>Deja un comentario</h3>
+            <form class="comment-form">
+                    <input type="text" placeholder="Nombre">
+                    <input type="email" placeholder="Email">
+                    <textarea rows="5" placeholder="Comentario"></textarea>
+                    <button type="submit" class="hero-btn red-btn">COMENTA</button>
+            </form>
+        </div>
+    </div>
+        
+    <div class="blog-right">
+        
+        
+            <h3>Categorías de nuestros posts</h3>
+            <div>
+                <span>Cigarros</span>
+                <span>21</span>
+            </div>
+            <div>
+                <span>Puros</span>
+                <span>28</span>
+            </div>
+            <div>
+                <span>Lotería</span>
+                <span>15</span>
+            </div>
+            <div>
+                <span>Fútbol</span>
+                <span>34</span>
+            </div>
+            <div>
+                <span>Cotilleos del barrio</span>
+                <span>42</span>
+            </div>
+            <div>
+                <span>Rebajas</span>
+                <span>22</span>
+            </div>
+            <div>
+                <span>Otros</span>
+                <span>13</span>
+            </div>
+           
+        </div> 
+    
+    </div>
+    </section>
+    
+<!-------- footer ---------->
+
+<section class="footer">
+        <h4>Informacion</h4>
+        <p>This webpage is a project for the course "Web Development I.</p>
+        <div class="icons">
+            <a href="https://www.linkedin.com/in/victorgonzalezjuarez/"><i class="fa fa-linkedin"></i></a>
+        </div>
+        <a href="https://www.linkedin.com/in/victorgonzalezjuarez/"footer-link"><p>hecho con <i class="fa fa-heart-o"></i> by Victor Gonzalez</p></a>
+</section>    
+  
+  
+<!----JavaScript for toggle menu---->
+<script>
+    var navLinks = document.getElementById("navLinks");
+
+    function showMenu() {
+        navLinks.style.right = "0";
+    }
+
+    function hideMenu() {
+        navLinks.style.right = "-200px";
+    }
+</script> 
+    
+</body>
+</html>    
